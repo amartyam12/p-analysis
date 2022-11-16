@@ -48,8 +48,8 @@ function App() {
       <button style={{fontSize:"20px",fontFamily:"cursive",padding:"8px 8px",borderRadius:"5px",backgroundColor:"blue",color:"white",border:"3px dotted white"}}type='button' onClick={submitHandler}>Check for Sentiment</button>
       <br/>
       <br/>
-      <h1><span style={{border:"3px solid yellow", padding:"5px 5px", borderRadius:"10px",backgroundColor:"black",color:"red"}}>Polarity{result?.result?.polarity}:</span></h1>
-      <h1><span style={{border:"3px solid yellow", padding:"5px 5px",borderRadius:"10px",backgroundColor:"black",color:"red"}}>Type:{result?.result?.type}</span></h1>
+      <h1><span style={{border:"3px solid yellow", padding:"5px 5px", borderRadius:"10px",backgroundColor:"black",color:"red"}}>Polarity: {result?.result?.polarity}</span></h1>
+      <h1><span style={{border:"3px solid yellow", padding:"5px 5px",borderRadius:"10px",backgroundColor:"black",color:"red"}}>Type: {result?.result?.type}</span></h1>
       
       {/* <Show result={result}/> */}
       
