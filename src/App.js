@@ -3,7 +3,7 @@ import React,{ useState } from 'react';
 import Show from './Show';
 import './App.css';
 
-functi App() {
+function App() {
   const [input,setInput]=useState("");
   const [result,setResult]=useState([]);
  
